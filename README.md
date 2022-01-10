@@ -16,5 +16,5 @@ A202002.csv,
 A202004.csv.
 
 
-N'oubliez pas de télécharger le fichier Wetransfer contenant le Django.
+N'oubliez pas de télécharger le fichier Wetransfer contenant le Django : https://we.tl/t-FMrmIdYf0V.
 Je vous rajoute le Django sans le fichier A2019_03.csv qui est à placer dans le dossier damir.
