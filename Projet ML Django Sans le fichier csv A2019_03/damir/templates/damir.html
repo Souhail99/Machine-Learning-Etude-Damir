@@ -1,0 +1,33 @@
+
+{% extends 'base.html'%}
+
+{% block content%}
+    
+  <div class="root">
+
+    <aside>
+        <div class="navig">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">graph 1</a>
+            </div>
+      </div>
+    </aside>
+    <section class="container">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+          <h3>Carte des Régions Française</h3>
+          <article>
+            <div class="viz">
+              {{ graph1|safe }}
+            </div>
+            
+          </article>
+        </div>
+      
+        
+      </div>
+    </section>
+
+  </div>
+
+  {%endblock%}

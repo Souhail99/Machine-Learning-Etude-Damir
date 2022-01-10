@@ -1,0 +1,81 @@
+footer{
+    text-align: center;
+    background: rgb(48, 48, 53);
+    color: whitesmoke;
+    margin-top: -200px;
+}
+header{
+    z-index: 10;
+}
+
+
+
+#root_index section.banniere{
+    height: 400px;
+    width: 100%;
+    background:radial-gradient(circle, rgba(4,58,142,0.8) 0%, rgba(2,43,80,1) 100%);
+}
+
+
+
+#root_index section.banniere #logo p{
+    margin: auto;
+    padding: 40px 10px;
+    width: 200px;
+    text-align: center;
+    border: 3px whitesmoke solid;
+    font: bold 2.4em "Fira Sans", serif;
+    border-radius: 10em;
+}
+
+
+#root_index section.banniere p{
+    text-align: justify;
+    width: 50%;
+    font: italic 1.5em "Fira Sans", serif;
+    color: whitesmoke;
+    margin: auto;
+}
+.root{
+    display: flex;
+}
+
+.root aside{
+    position: relative;
+    width: 200px;
+
+}
+
+.root aside.navig {
+    position: fixed;
+    top: 0;
+}
+
+.root aside.nav{
+    z-index: 2;
+    width: 200px;
+}
+
+.root section.container{
+    z-index: 30;
+    background-color: rgba(75, 78, 78, 0.212);
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.root section.container h3{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.root section.container article{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.root .viz{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
