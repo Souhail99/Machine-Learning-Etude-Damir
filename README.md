@@ -14,3 +14,7 @@ A2019_03.csv (celui-là est très important si vous voulez lancer le notebook),
 A2019_08.csv,
 A202002.csv,
 A202004.csv.
+
+
+N'oubliez pas de télécharger le fichier Wetransfer contenant le Django.
+Je vous rajoute le Django sans le fichier A2019_03.csv qui est à placer dans le dossier damir.
